@@ -129,9 +129,7 @@ function getMusicToken(params, lyricData) {
             resolve({
                 vkey: res.data.req.data.vkey,
                 musicUrl: musicUrl,
-                lyric: lyric,
-		params: params,
-		res: res.data.req_0
+                lyric: lyric
             });
         }, err => {
             reject(err);
